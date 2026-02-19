@@ -1,0 +1,49 @@
+# Node
+node_modules/
+dist/
+dist-electron/
+
+# Python
+__pycache__/
+*.pyc
+.python-version
+.venv/
+.venv313/
+.pytest_cache/
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+
+# macOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime artifacts
+coverage/
+out/
+tmp/
+*.log
+
+# Local app data snapshots
+app-data/
+
+# Build asset outputs
+build-assets/bin/
+build-assets/worker/
+build-assets/worker-build-venv/
+build-assets/.pyinstaller-work/
+build-assets/.pyinstaller-spec/
+
+# Swift build output
+native/Transkriptor/.build/
+native/Transkriptor/.staging/
+
+# Large release binaries (GitHub limit is 100 MB)
+Transkriptor-Electron-Installer.dmg
+production-downloads/latest/Transkriptor-Electron-Installer.dmg

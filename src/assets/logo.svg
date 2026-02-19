@@ -1,0 +1,21 @@
+<svg width="196" height="196" viewBox="0 0 196 196" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="waveGradient" x1="26" y1="132" x2="172" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DDF8FF"/>
+      <stop offset="1" stop-color="#6ED4FF"/>
+    </linearGradient>
+    <filter id="waveGlow" x="0" y="0" width="196" height="196" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <path
+    d="M24 112H44L62 68L84 134L104 82L122 126L142 86L160 112H172"
+    stroke="url(#waveGradient)"
+    stroke-width="10"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+    filter="url(#waveGlow)"
+  />
+</svg>

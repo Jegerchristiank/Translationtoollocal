@@ -1,0 +1,5 @@
+# Core (kræves for normal drift)
+-r requirements-core.txt
+
+# Valgfri fallback (stor model-stack)
+-r requirements-fallback.txt
