@@ -3,9 +3,9 @@
 ## Native SwiftUI version
 Der ligger nu en native macOS 14+ implementation i:
 
-- `/Users/christiankristensen/Translationtoollocal/native/Transkriptor`
+- `native/Transkriptor`
 
-Læs `/Users/christiankristensen/Translationtoollocal/native/Transkriptor/README.md` for build/test, `.app`/`.dmg` og notarization.
+Læs `native/Transkriptor/README.md` for build/test, `.app`/`.dmg` og notarization.
 
 Den eksisterende Electron/Python-version er stadig i repoet som reference og fallback under migrationen.
 
@@ -80,6 +80,8 @@ Output ligger typisk i `dist/mac-arm64/Transkriptor.app`.
 - Slutbrugeren behøver kun `.dmg`-filen.
 - Slutbrugeren skal kun indtaste API-nøgle i appen (eller via `.env`).
 - Ingen manuel installation af Python/ffmpeg hos slutbrugeren.
+- `Transkriptor-Electron-Installer.dmg` er ikke versionsstyret i Git (filen er >100 MB).
+  Generer den lokalt eller distribuer den via release artifacts.
 
 ## Sikkerhed
 - OpenAI API-nøgle ligger i Keychain, ikke i repo.

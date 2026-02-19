@@ -3,7 +3,7 @@ Brug kun disse filer fra hovedmappen:
 1) Transkriptor-PKG-Installer.dmg (Native PKG, anbefalet)
 2) Transkriptor.pkg (Direkte PKG)
 3) Transkriptor-Installer.dmg (Native drag-and-drop, kompatibilitet)
-4) Transkriptor-Electron-Installer.dmg (Electron fallback)
+4) Transkriptor-Electron-Installer.dmg (Electron fallback; ikke i Git pga. 100 MB-grænse)
 5) Transkriptor-Uninstaller.command (afinstallerer app + data)
 
 Checksums: SHA256SUMS.txt
